@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const stars = document.querySelectorAll('.star-btn');
     const statusText = document.getElementById('ratingStatus');
     // MASUKKAN TARGET LINK TOKOPEDIA LU DI SINI
-    const tokopediaLink = "https://www.tokopedia.com/"; 
+    const tokopediaLink = "https://www.tokopedia.com/brick-station-store"; 
 
     stars.forEach(star => {
         star.addEventListener('mouseover', function() {
